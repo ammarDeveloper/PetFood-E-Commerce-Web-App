@@ -1,0 +1,46 @@
+/* Styles */
+.customer-dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.quick-links {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-card {
+    text-align: center;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.editProfileBtn,
+.logoutBtn {
+    padding: 8px 10px;
+    color: white;
+    margin: 0 5px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.editProfileBtn{
+    background-color: blue;
+}
+
+.logoutBtn {
+    background-color: red;
+}

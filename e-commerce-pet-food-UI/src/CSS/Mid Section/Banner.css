@@ -1,0 +1,20 @@
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e5e6e6;
+}
+
+.banner-right img{
+    height: 35vh;
+}
+
+.plp-link {
+    text-decoration: none;
+    color: black;
+}
+
+.active{
+    text-decoration: underline;
+    font-weight: bold;
+}

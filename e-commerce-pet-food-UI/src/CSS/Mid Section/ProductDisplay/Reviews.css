@@ -1,0 +1,57 @@
+.review-section {
+    height: 30vh;
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin: 20px;
+    margin-top: 0px;
+  }
+  
+  .ratings-bars {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .percentage-bar{
+    width: 20vw;
+  }
+  
+  .rating-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .star {
+    margin-right: 10px;
+  }
+  
+  .overall-rating {
+    text-align: center;
+  }
+  
+  .stars {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .stars .filled {
+    color: gold;
+  }
+  
+  .review-product {
+    text-align: center;
+  }
+  
+  .review-product .stars {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .review-product .stars .selected {
+    color: gold;
+  }
+  
+  

@@ -1,0 +1,58 @@
+.sort-by-container {
+    padding: 20px 0;
+    box-sizing: border-box;
+    margin: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+    border-radius: 5px;
+  }
+  
+  .sort-by-option {
+    margin-bottom: 20px;
+
+  }
+  
+  .dropdown {
+    position: relative;
+    background-color: white;
+  }
+
+  .dropdown-btn{
+    position: relative;
+    cursor: pointer;
+  }
+
+  .dropdown-btn span{
+    position: absolute;
+    right: 10%;
+    top: 35%;
+  }
+  
+  .dropdown-btn h3 {
+    margin: 0;
+    padding: 10px 5px;
+    text-align: start;
+    border-bottom: 1px solid black;
+  }
+
+  .dropdown-content {
+    display: none;
+    transition: all 0.3s ease;
+  }
+  
+  .dropdown-content.show {
+    display: block;
+  }
+  
+  .dropdown-content .checkbox-option {
+    padding: 10px;
+  }
+  
+  .checkbox-option {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-option input[type="checkbox"] {
+    margin-right: 10px;
+  }

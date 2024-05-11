@@ -1,0 +1,63 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.logo img {
+    color: #484c7f;
+    transition: color 300ms;
+    margin: 2rem 5px;
+    height: 2.5rem;
+}
+
+.logo:hover h2 {
+    color: #30336b;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links li {
+    margin-left: 1rem;
+    list-style: none;
+}
+
+.links a {
+    text-decoration: none;
+    color: #748ffc;
+    padding: 0.25rem 0.5rem;
+    transition: all 300ms;
+}
+
+.links a:hover {
+    color: #f58634;
+    background-color: #eee;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons svg {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 300ms;
+    margin-left: 1rem;
+    color: #495bc3;
+}
+
+.icons svg:hover {
+    color: #a18034;
+}

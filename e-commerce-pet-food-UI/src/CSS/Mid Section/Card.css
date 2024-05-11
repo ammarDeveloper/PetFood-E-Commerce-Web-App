@@ -1,0 +1,114 @@
+.card {
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.card-description {
+  margin: 10px 0;
+}
+
+.royel-bottom-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 1px;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+}
+
+.royel-bottom-btn:hover {
+  background-color: #3e8e41;
+}
+
+.royel-quantity-select {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 20px;
+  padding-right: 10%;
+  background: #ffffff;
+  color: black;
+}
+
+.royel-quantity-select select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 12px 15px;
+}
+
+.royel-quantity-select svg {
+  position: absolute;
+  pointer-events: none;
+  color: black;
+  right: 10%;
+}
+
+.royel-buy-now-btn-box {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  min-width: 150px;
+}
+
+.buy-now-btn-royel {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.buy-now-btn-royel svg {
+  margin-left: 10px;
+  transition: margin 0.3s ease;
+}
+
+.buy-now-btn-royel:hover {
+  color: #f1f1f1;
+}
+
+.buy-now-btn-royel:hover svg {
+  margin-left: 20px;
+}
+
+.img-box {
+  height: 35vh;
+}
+
+.img-box img {
+  height: 100%;
+}
